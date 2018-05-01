@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.optimize import leastsq
-X= np.array([0,1,2,3,-1,-2,-3])
+X= np.array([0,1,2,3,-1,-2,-3 ])
 Y= np.array([-1.22,1.85,3.22,10.29,2.21,3.72,8.7])
 plt.figure(figsize=(4,4))
 def func(p,x):
